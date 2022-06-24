@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+body{
+  position: relative;
+  width:1268.800;
+  height:900px;
+  margin: 8px;
+  padding: 8px;
+}
+
+#table{
+background-color: rgb(233, 234, 254);
+position:absolute;
+left:450px;
+width: 700px;
+height:1000px;
+border: 1px solid black;
+}
+#detail{
+	background-color:rgb(254, 214, 214);
+	width: 700px;
+	height:200px;
+	position:absolute;
+	border-bottom:1px solid black;
+}
+ #image{
+      width:120px;
+      height: 120px;
+      border:1px solid black;
+      position:absolute;
+      left: 30px;
+      top:30px;  
+      z-index:1;
+    }
+ul li{
+      margin-bottom: 40px;
+      list-style: none;
+    }
+    .signup label {
+	  float: left;  /* 왼쪽으로 배치 */
+	  font-size: 14px;  /* 글자 크기 - 13px */
+  	width: 110px;  /* 너비 - 110px */
+    margin-bottom: 10;
+    }
+
+ #login button{
+      height: 20px;
+      font-size: 10px;
+      color: black;
+      position: absolute;
+      top:48px;
+      left: 219px;
+      background-color: white;
+      border: 1px solid black;
+    }
+
+    #login button:active{
+      background-color: #333333;
+    }
+    #login{
+      border: 1px solid black;
+      position: absolute;
+      width:280px;
+      height: 80px;
+      top:90px;
+      left: 1218.8px;
+    }
+    #login input[type="submit"]{
+    position:absolute;
+    left:210px;
+    top:50px;
+    font-size:10px;
+    }
+    div #dis{
+      position: absolute;
+      left:10px;
+      top:10px;
+      background-color: rgb(46, 46, 72);
+     
+      width:265px;
+      height:40px;
+      color:white;
+      margin:-4px;
+      margin-right:5px;
+      text-align: center;
+      font-size: 16px;
+      font-family: "맑은 고딕";
+    }   
+ nav a[href="P1_admin.jsp"]{
+      position: absolute;
+      left: 10px;
+      top: 13px;
+      font-family: "맑은 고딕";
+      font-size: 19px;
+      color: blue;
+      font-weight: bold;
+    }
+    nav input{
+      position: absolute;
+      left: 100px;
+      height: 35px;
+    }
+    nav button{
+      position: absolute;
+      left:376px;
+      height: 36px;
+      border:0px;
+      background-color: #1b5ac2;
+      outline: none;
+      float:right;
+      color: #ffffff;
+
+    }
+    
+    #listcartoon{
+      position: fixed;
+      left:260px;
+      top:360px;
+      width: 150px;
+      height: 340px;
+      background-color: rgb(233, 234, 254);
+      border: 1px solid black;
+    }
+
+    #listcartoon li {
+      margin-bottom: 16px;
+    }
+    #listcartoon ol{
+      position: absolute;
+      left: -15px;
+      font-size: 14px;
+      top:28px;
+    }
+    #listcartoon #listcartoon_top{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 150px;
+      height: 30px;
+      border: none;
+      border-bottom: 1px solid black;
+      text-align: center;
+      background-color: rgb(122, 122, 122);
+      font-weight: bold;
+      font-size: 20px;
+    }
+    #signup{
+    position:absolute;
+    left:130px;
+    top:10px;
+    }
+    #signup label{
+    float: left;  
+	font-size: 14px; 
+  	width: 140px;  
+    z-index:2;
+    }
+    #signup ul{
+    margin-bottom: 40px;
+    list-style:none;
+    z-index:2;
+    }
+     #signup li{
+    margin-bottom: 10px;
+    list-style:none;
+    z-index:2;
+    }
+   	#catalog{
+   	position:absolute;
+   	left:-10px;
+   	top:210px;	
+    width: 700px;
+   	z-index:3;
+   	}
+	#catalog table{
+	width: 550px;
+	position:absolute;
+	left:20px;
+	text-align:center;
+	}
+     
+     #modified button{
+     position:absolute;
+     left:610px;
+     top:212px;
+     z-index:5;
+     }
+      #modified button:active{
+       background-color: #333333;
+      }
+     #deleted button{
+     position:absolute;
+     left:630px;
+     top:212px;
+     z-index:5;
+     }
+     #deleted button:active{
+      background-color: #333333;
+      }
+      #inputepi{
+      position:absolute;
+      left:620px;
+      top:10px;
+      }
+      
+      
+  
